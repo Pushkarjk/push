@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sample</title>
+    <link href="styles/StyleSheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <div id ="wrapper">
+            <div id="banner">
+            </div>
+
+            <ul id="navigation">
+
+            </ul>
+            <div id="Content">
+
+            </div>
+            
+            <div id="Sidebar">
+
+            </div>
+            
+            <div id="Footer">
+                <p>Oh my god!</p>
+            </div>
+
+        </div>
+
+    </form>
+</body>
+</html>
